@@ -1,0 +1,25 @@
+# --- PowerShell ---
+*.tmp
+*.log
+*.bak
+*.orig
+
+# --- локальные артефакты сборки превью ---
+_build/
+out.txt
+transcripts/
+*.tmp.png
+*.tmp.gif
+
+# --- системное ---
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+.DS_Store
+
+# --- IDE ---
+.vscode/
+.idea/
+*.suo
+*.user
